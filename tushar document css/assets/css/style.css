@@ -1,0 +1,59 @@
+.main {
+    background-color: lightblue;
+    height: 300px;
+    color: whitesmoke;
+    font-size: 90px;
+    display: none;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    #one {
+        display: block;
+        background-color: green;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 760px) {
+    #two {
+        display: block;
+        background-color: brown;
+
+    }
+}
+@media (min-width:760px) and (max-width:1024px)
+{
+    #three
+    {
+         display: block;
+        background-color: aliceblue;
+    }
+}
+@media ( min-width:1025px) and (max-width:1200px)
+{
+     #four
+    {
+         display: block;
+        background-color: blueviolet;
+    }
+}
+@media (min-width:1025px) and (max-width:1200px)
+{
+     #four
+    {
+         display: block;
+        background-color: ;
+    }
+
+
+
+}
+
+}
+
+
+
+
+
+
+}
